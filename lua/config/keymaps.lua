@@ -11,8 +11,8 @@ map("n", "<leader>gd", require("telescope.builtin").git_bcommits, { noremap = tr
 map("n", "<leader>gb", require("gitsigns").blame, { noremap = true, silent = true, desc = "Blame" })
 
 -- page up/down with centering
-map("n", "<C-d>", "<C-d>zz")
-map("n", "<C-u>", "<C-u>zz")
+-- map("n", "<C-d>", "<C-d>zz")
+-- map("n", "<C-u>", "<C-u>zz")
 
 map("n", "<leader>rr", require("kulala").run, { noremap = true, silent = true, desc = "Execute the request" })
 map("n", "<leader>ri", require("kulala").inspect, { noremap = true, silent = true, desc = "Inspect the current request" })
